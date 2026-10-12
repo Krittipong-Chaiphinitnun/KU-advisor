@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "KU-advisor",
+    "slug": "ku-advisor",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "ku-advisor",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#004D25"
+    },
+    "ios": {
+      "icon": "./assets/icon.png",
+      "bundleIdentifier": "th.ac.ku.advisor"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#004D25",
+        "foregroundImage": "./assets/adaptive-icon.png"
+      },
+      "package": "th.ac.ku.advisor",
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-image-picker",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#004D25",
+          "image": "./assets/splash.png",
+          "imageWidth": 200,
+          "resizeMode": "contain"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}

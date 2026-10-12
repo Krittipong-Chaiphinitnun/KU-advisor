@@ -1,0 +1,29 @@
+# Environment variables and secrets
+.env
+*.env
+backend/.env
+node_modules/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Database and SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# Expo / Frontend
+.expo/
+frontend/.expo/
+dist/
+frontend/dist/
+web-build/
+frontend/web-build/
+
+# OS / Editor
+.DS_Store
+Thumbs.db

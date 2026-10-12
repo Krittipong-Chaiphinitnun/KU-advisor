@@ -1,0 +1,11 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Graduation cap -->
+  <path d="M32 96 L128 48 L224 96 L128 144 L32 96 Z" fill="#004D25"/>
+  <rect x="112" y="144" width="32" height="48" fill="#004D25"/>
+  <!-- Book pages -->
+  <path d="M64 176 L192 176 L192 224 L64 224 Z" fill="#D4AF37"/>
+  <path d="M64 176 L128 208 L192 176" stroke="#004D25" stroke-width="4"/>
+  <path d="M64 224 L128 192 L192 224" stroke="#004D25" stroke-width="4"/>
+  <!-- AI sparkle -->
+  <path d="M180 80 L184 88 L192 90 L186 96 L188 104 L180 100 L172 104 L174 96 L168 90 L176 88 Z" fill="#D4AF37"/>
+</svg>

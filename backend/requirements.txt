@@ -1,0 +1,29 @@
+# KU-advisor — Backend Dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Web framework ─────────────────────────────────────────────────────────────
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+
+# ── AI / Gemini ───────────────────────────────────────────────────────────────
+google-genai==1.16.0
+
+# ── PDF processing ────────────────────────────────────────────────────────────
+PyMuPDF==1.25.5          # provides the `fitz` module
+
+# ── Image handling (PIL / Pillow) ─────────────────────────────────────────────
+Pillow==11.1.0
+
+# ── Environment variables ─────────────────────────────────────────────────────
+python-dotenv==1.0.1
+
+# ── Multipart form data (needed for UploadFile) ───────────────────────────────
+python-multipart==0.0.20
+
+# ── Database ──────────────────────────────────────────────────────────────────
+SQLAlchemy==2.0.36       # ORM + core
+pyodbc>=5.0.0            # ODBC driver interface for Microsoft SQL Server / SSMS
+
+# ── Password hashing ──────────────────────────────────────────────────────────
+passlib[bcrypt]==1.7.4   # bcrypt hashing for user passwords
+bcrypt==4.2.1            # explicit pin — passlib[bcrypt] requires this
